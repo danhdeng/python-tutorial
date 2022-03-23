@@ -115,6 +115,18 @@ print(nested_list[1][2][0])
 # use the for loop to print out the matrix
 for element in matrix:
     print(element)
+    
+# Tuples
+
+# Tuples are immutable!
+
+x =('foo', 'bar', 'baz')
+y =['foo', 'bar', 'baz']
+print(type(x), type(y))
+
+#x[0]='quck' # raise error: TypeError: 'tuple' object does not support item assignment
 
 
+# iterate the tuples
 
+print(x[::-1])
